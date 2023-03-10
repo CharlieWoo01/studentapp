@@ -68,6 +68,19 @@
               student?.totalSpentInBooks
             }}
           </li>
+          <li class="list-group-item">
+            <i class="fa fa-phone float-right"></i>
+            <div *ngFor="let subject of student?.favouriteSubjects">
+              {{ subject }}
+            </div>
+          </li>
+
+          <li class="list-group-item">
+            <i class="fa fa-phone float-right"></i>
+            <p>{{ student?.address?.country }}</p>
+            <p>{{ student?.address?.city }}</p>
+            <p>{{ student?.address?.postcode }}</p>
+          </li>
         </ul>
         <div class="card-body">
           <ul class="social-links list-inline mb-0">

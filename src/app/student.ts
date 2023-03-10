@@ -1,3 +1,9 @@
+export interface Address {
+    country: string;
+    city: string;
+    postcode: string;
+  }
+  
 export interface Student {
     id: string;
     firstName: string;
@@ -6,4 +12,6 @@ export interface Student {
     gender: string;
     created: string;
     totalSpentInBooks: number;
+    favouriteSubjects: string[];
+    address: Address;
 }
