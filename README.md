@@ -1,5 +1,8 @@
 # Studentapp
 
+![image](https://user-images.githubusercontent.com/68980359/224688349-e39ccd7b-f51b-4783-a01a-3021006b2117.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
